@@ -44,4 +44,4 @@ The autograder can work with different .dxf versions (such as dxf 2013, dxf 2018
 ### Issue with polyline and spline
 Throughout our testing of different CAD drawings, we discovered that our algorithm was missing code to parse and grade polylines and splines. The parsers have been added to get_ents() function so it can extract layers, default start width, default end width, m count, and more attributes from polylines, as well as extract layer, degree, flags, n_knots and more information from splines.
 
-The algorithm that grades polylines and spline is under development, as for each new kind of entity, the algorithm to check scale/rotation/missing or extra entity is different.
+The algorithm for grading polylines and spline is under development, as for each new kind of entity, the algorithm to check scale/rotation/missing or extra entity is different.
